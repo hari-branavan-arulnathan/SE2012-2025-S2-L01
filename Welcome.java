@@ -11,5 +11,7 @@ public class Welcome{
         String last_name = scanner.nextLine();
 
         System.out.printf("Welcome to the Second Year %s %s!\n", first_name, last_name);
+
+        scanner.close();
     }
 }
